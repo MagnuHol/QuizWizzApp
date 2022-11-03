@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#1565c0"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/textView_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="highscores"
+        android:layout_marginBottom="30dp"
+        android:textSize="55sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="history"
+            android:layout_marginBottom="30dp"
+            android:textSize="35sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:id="@+id/textView_HighscoreHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="start"
+            android:text="score"
+            android:textColor="#FFD54F"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="music"
+            android:layout_marginBottom="30dp"
+            android:textSize="35sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:layout_margin="8dp"/>
+        <TextView
+            android:id="@+id/textView_highscoreRecognize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="score"
+            android:layout_marginBottom="30dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:layout_margin="8dp"
+            android:textColor="#FFD54F"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sports"
+            android:layout_marginBottom="30dp"
+            android:textSize="35sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:layout_margin="8dp"/>
+        <TextView
+            android:id="@+id/textView_highscoreLyrics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="score"
+            android:layout_marginBottom="30dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:layout_margin="8dp"
+            android:textColor="#FFD54F"/>
+
+        <Button
+            android:id="@+id/button_mainActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:textSize="30sp"
+            android:text="Main menu"
+            android:textColor="@color/white"
+            app:iconGravity="textStart"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bakgrunn"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".CategoryActivity">
+
+    <TextView
+        android:id="@+id/textView_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="#00000000"
+        android:gravity="center"
+        android:text="QuizWizz"
+        android:textColor="@color/white"
+        android:textSize="55sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/cardview_default_elevation"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/button_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Play"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/button_stats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Stats"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+
+        <Button
+            android:id="@+id/button_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Exit"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
