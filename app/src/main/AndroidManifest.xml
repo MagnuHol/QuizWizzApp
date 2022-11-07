@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.quizappfinal">
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,31 +9,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizAppFinal">
         <activity
-            android:name=".HistoryActivity"
+            android:name=".HighscoreActivty"
             android:exported="true" />
         <activity
-            android:name=".ScoreboardActivity"
-            android:exported="true" />
-        <activity
-            android:name=".MusicActivity"
-            android:exported="true" />
-        <activity
-            android:name=".ScoreActivity"
+            android:name=".ResultActivity"
             android:exported="true" />
         <activity
             android:name=".SportActivity"
             android:exported="true" />
         <activity
+            android:name=".MusicActivity"
+            android:exported="true" />
+        <activity
             android:name=".CategoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HistoryActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

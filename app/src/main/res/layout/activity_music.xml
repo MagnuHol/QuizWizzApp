@@ -31,12 +31,12 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:gravity="center"
-        android:text="play_song"
+        android:text="press to play "
         android:background="#00BFFF"
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="25sp"
         app:iconGravity="textStart"
-        android:padding="10dp"
+        android:padding="20dp"
 
         />
 
@@ -50,8 +50,8 @@
         android:text="option1"
         android:layout_marginBottom="10dp"
         android:padding="10dp"
-        android:layout_margin="8dp"
-        android:elevation="4sp"
+        android:layout_margin="10dp"
+
         />
     <TextView
         android:id="@+id/textView_option2"
@@ -63,8 +63,8 @@
         android:background="#00BFFF"
         android:layout_marginBottom="10dp"
         android:padding="10dp"
-        android:layout_margin="8dp"
-        android:elevation="4sp"
+        android:layout_margin="10dp"
+
         />
     <TextView
         android:id="@+id/textView_option3"
@@ -76,8 +76,8 @@
         android:background="#00BFFF"
         android:layout_marginBottom="10dp"
         android:padding="10dp"
-        android:layout_margin="8dp"
-        android:elevation="4sp"
+        android:layout_margin="10dp"
+
         />
     <TextView
         android:id="@+id/textView_option4"
@@ -89,8 +89,8 @@
         android:background="#00BFFF"
         android:layout_marginBottom="10dp"
         android:padding="10dp"
-        android:layout_margin="8dp"
-        android:elevation="4sp"
+        android:layout_margin="10dp"
+
         />
 
     <Button
@@ -103,7 +103,4 @@
         android:text="Confirm"
         android:textColor="@color/white"
         android:textSize="30sp" />
-
-
-
 </LinearLayout>

@@ -14,8 +14,8 @@
     <ImageView
         android:id="@+id/ImageView_image"
         android:layout_width="350dp"
-        android:layout_height="147dp"></ImageView>
-
+        android:layout_height="147dp">
+    </ImageView>
 
     <TextView
         android:id="@+id/textView_question"
@@ -28,10 +28,7 @@
         android:layout_marginBottom="40dp"
         android:padding="10dp"
         android:layout_margin="8dp"
-
         />
-
-
 
     <TextView
         android:id="@+id/textView_option1"
@@ -98,7 +95,4 @@
         android:textColor="@color/white"
         android:elevation="4sp"
         />
-
-
-
 </LinearLayout>

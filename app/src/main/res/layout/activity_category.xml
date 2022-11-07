@@ -27,44 +27,41 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="264dp"
+        android:layout_height="286dp"
         android:orientation="vertical"
         android:padding="15dp">
 
         <Button
-            android:id="@+id/button_history"
+            android:id="@+id/historybutton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:gravity="center
-"
-            android:padding="10dp"
+            android:gravity="center"
+            android:padding="15dp"
             android:text="Sports"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button_music"
+            android:id="@+id/musicbutton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:gravity="center
-"
-            android:padding="10dp"
+            android:gravity="center"
+            android:padding="15dp"
             android:text="Music"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/sports"
+            android:id="@+id/sportsbutton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_margin="8dp"
-            android:gravity="center
-"
-            android:padding="10dp"
+            android:gravity="center"
+            android:padding="15dp"
             android:text="History"
             android:textColor="@color/white"
             android:textSize="30sp"

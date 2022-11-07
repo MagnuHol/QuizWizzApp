@@ -7,7 +7,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:background="#1565c0"
-    tools:context=".CategoryActivity"
+    tools:context=".HighscoreActivty"
     >
 
   <TextView
@@ -16,46 +16,40 @@
       android:layout_height="wrap_content"
       android:text="Your result"
       android:layout_marginBottom="30dp"
-      android:textSize="55sp"
+      android:textSize="30sp"
       android:textColor="@color/white"
       android:textStyle="bold"
       android:gravity="center"/>
+
+  <ImageView
+      android:layout_width="215dp"
+      android:layout_height="230dp"
+      android:contentDescription="Image"
+      android:src="@drawable/trophy"
+    ></ImageView>
 
   <TextView
       android:id="@+id/textView_score"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"
+      android:layout_height="109dp"
+      android:layout_marginBottom="30dp"
+      android:gravity="center"
       android:text="Score"
-      android:layout_marginBottom="30dp"
-      android:textSize="55sp"
       android:textColor="@color/white"
-      android:textStyle="bold"
-      android:gravity="center"/>
+      android:textSize="30sp"
+      android:textStyle="bold" />
 
-  <TextView
-      android:id="@+id/textView_highscore"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="score"
-      android:layout_marginBottom="30dp"
-      android:textSize="35sp"
-      android:textColor="@color/white"
-      android:textStyle="bold"
-      android:gravity="center"/>
 
   <Button
       android:id="@+id/button_mainActivity"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:gravity="center"
-      android:textColor="@color/white"
-      android:text="Main menu"
+      android:layout_height="75dp"
       android:layout_margin="8dp"
+      android:gravity="center"
       android:padding="10dp"
+      android:text="Finish"
+      android:textColor="@color/white"
       android:textSize="30sp"
-      app:iconGravity="textStart"
-      />
-
-
+      app:iconGravity="textStart" />
 
 </LinearLayout>
